@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="3Dwebsite.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <img class="image-gradient" src="image/gradient.png" alt="gradient" />
+      <div class="layer-blur"></div>
+
+      <div class="container">
+        <header>
+          <h1 data-aos="fade-down" data-aos-duration="1500" class="logo">
+            YASMIN 
+          </h1>
+
+          <nav>
+            <a data-aos="fade-down" data-aos-duration="1500" href="#about"
+              >ABOUT</a
+            >
+            <a data-aos="fade-down" data-aos-duration="2000" href="#services"
+              >SERVICES</a
+            >
+            <a data-aos="fade-down" data-aos-duration="2500" href="#contact"
+              >CONTACT</a
+            >
+            <a data-aos="fade-down" data-aos-duration="3000" href="#portfolio">WORK</a>
+          </nav>
+          
+        </header>
+        <main>
+          <div class="content">
+            <div
+              data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="300"
+              data-aos-offset="0"
+              data-aos-duration="1500"
+              class="tag-box"
+            >
+              <div class="tag">FRONT-END DEVELOPER</div>
+            </div>
+            <h1
+              data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="300"
+              data-aos-offset="0"
+              data-aos-duration="2000"
+            >
+              CREATING DIGITAL <br />EXPERIENCES
+            </h1>
+            <p
+              data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="300"
+              data-aos-offset="0"
+              data-aos-duration="2500"
+              class="description"
+            >
+              Specializing in modern, responsive web interfaces with clean code 
+              and exceptional user experience. Currently looking for new opportunities 
+              to bring innovative designs to life.
+            </p>
+
+            <div
+              data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="300"
+              data-aos-offset="0"
+              data-aos-duration="3000"
+              class="buttons"
+            >
+              <a href="#portfolio" class="btn-get-started">View My Work</a>
+              <a href="#contact" class="btn-signing-main">Contact Me</a>
+            </div>
+          </div>
+        </main>
+        <spline-viewer
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+          data-aos-duration="3500"
+          class="robot-3d"
+          url="https://prod.spline.design/zJbErq3ayCjrfCDv/scene.splinecode"
+        ></spline-viewer>
+      </div>
+    </div>
+    <!--------------------about------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/whoiam.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Passionate front-end developer with expertise in creating responsive, 
+                   user-friendly web applications. I transform creative designs into 
+                   functional, high-performance websites using modern technologies. 
+                   Currently seeking opportunities to contribute to innovative projects 
+                   and grow within a dynamic development team.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>Front-End Technologies</span><br>HTML5, CSS3, JavaScript (ES6+)</li>
+                        <li><span>Frameworks & Libraries</span><br>React.js, Bootstrap, jQuery</li>
+                        <li><span>Tools & Workflow</span><br>Git, Webpack, Responsive Design, Cross-Browser Compatibility</li>
+                    </ul>
+                </div>
+                <div class="tab-contents active-tab" id="experience">
+                    <ul>
+                        <li><span>2024-Current</span><br>Freelance Front-End Developer</li>
+                        <li><span>2023-2024</span><br>Front-End Intern at Digital Solutions Agency</li>
+                        <li><span>2022-2023</span><br>Personal Projects & Self-Study</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<!------------------------services------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Front-End Development</h2>
+                <p>Building responsive, accessible websites with clean HTML, CSS, and JavaScript. Focus on performance and SEO best practices.</p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>React Development</h2>
+                <p>Creating dynamic web applications using React.js with modern hooks and state management solutions.</p>
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Responsive Design</h2>
+                <p>Developing mobile-first, fully responsive interfaces that work seamlessly across all devices and screen sizes.</p>
+                
+            </div>
+
+        </div>
+    </div>
+</div>
+<!------------------------portfolio--------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work1.jpg" alt="">
+                <div class="layer">
+                    <h3>Travel Inspiration & Booking UI</h3> 
+                    <p>Immersive travel platform featuring destination showcases, interactive trip planning, and seamless booking experience.</p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work2.jpg" alt="">
+                <div class="layer">
+                    <h3>Le Vingt4 Restaurant UI</h3> <p>Elegant dining website showcasing eco-conscious cuisine, blending French tradition with modern creativity and curated gastronomic experiences.</p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work3.jpg" alt="">
+                <div class="layer">
+                    <h3>Task Management App</h3>
+                    <p>Drag-and-drop task organizer with local storage, category filters, and progress tracking.</p>
+                    
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Let's Work Together</a>
+    </div>
+</div>
+<!--------------contact--------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> yasminmohameddaoud22@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>+905521616568</p>
+                <div class="social-icons">
+                    
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+              </div>
+              
+        </div>
+        <div class="copyright">
+        <p>Copyright © Yasmin. All rights reserved. <i class="fa-solid fa-heart"></i></p>
+     </div>
+</div>
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.12.28/build/spline-viewer.js"
+    ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+  </body>
+</html>
